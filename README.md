@@ -8,7 +8,6 @@ Options:
   -q, --quiet     dont output headers giving file names
   -n, --lines <n> output the last <n> lines (default: 250)
   -h, --help      show this help message
-  <any other tail(h) option>
 ```
 
 TODO:
