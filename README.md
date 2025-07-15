@@ -1,6 +1,6 @@
 # flog
 Follow Logs in Linux and wait for log to exist if not found
-
+Automatic prompt for sudo if not authorized
 ```
 Usage: flog [options] <file_name>
 Simple wrapper for tail command with defaults --follow=name --retry --lines 250 --verbose)
