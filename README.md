@@ -10,3 +10,6 @@ Options:
   -h, --help      show this help message
   <any other tail(h) option>
 ```
+
+TODO:
+* [.] Update and test on bsd `tail` so MAC and the BSDs are supported
