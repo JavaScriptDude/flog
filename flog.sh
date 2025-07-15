@@ -77,7 +77,6 @@ flog_main() {
     echo "  -q, --quiet     dont output headers giving file names"
     echo "  -n, --lines <n> output the last <n> lines (default: $def_lines)"
     echo "  -h, --help      show this help message"
-    echo "  <any other tail(h) option>"
     OK=false
   fi
 
