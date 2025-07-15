@@ -91,6 +91,14 @@ flog_main() {
 
     cmd="$cmd \"$file\""
 
+    # Check if user has permissions to read the file
+    if [ ! -r "$file" ]; then
+      echo "You dont have permissions to read '$file'"
+      echo -n "Hit any key to use sudo or Ctrl-C to exit:"
+      read -r _anykey_
+      cmd="sudo $cmd"
+    fi
+
     # echo "cmd: $cmd"
 
     bash -c "$cmd "
